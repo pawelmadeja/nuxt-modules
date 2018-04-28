@@ -1,6 +1,7 @@
 import Vue from 'vue'
-import Firebase from 'firebase'
-import 'firebase/firestore'
+import * as Firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/database';
 
 const firebasePlugin = {
   install () {
